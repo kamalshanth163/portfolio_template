@@ -1,0 +1,154 @@
+
+/* Start Navigation */
+.header_area .main-menu .navbar .navbar-brand{
+  font-family: "century gothic";
+  color: white;
+  font-weight: 900;
+  letter-spacing: 4px;
+  padding: 0 2rem 0 5rem;
+}
+.header_area .main-menu .navbar .navbar-brand.change-brand-style{
+  color: rgb(24, 24, 24);
+}
+.header_area .main-menu .navbar{
+  padding: 1rem 10rem;
+  position: fixed;
+  width: 100%;
+  transition: .4s;
+  z-index: 10000;
+  background: transparent;
+}
+.header_area .main-menu .navbar.change-nav-style{
+  background: rgb(248, 248, 248);
+}
+.header_area .main-menu .nav-item .nav-link{
+  font: normal 500 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: rgb(97, 97, 97);
+}
+.header_area .main-menu .nav-item .nav-link.change-link-style{
+  color: white;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header_area .main-menu .navbar-nav a:hover{
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+/* End Navigation */
+
+/* Start Banner Area */
+.site-main .site-banner{
+  background: url(../img/extra/peter.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  color: white;
+}
+.site-main .site-banner .site-title h3{
+  padding-top: 35%;
+  font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+  font-size: 5rem;
+}
+.site-main .site-banner .site-title h4{
+  font-size: 1.5rem;
+}
+/* End Banner Area */
+
+
+/* About Area */
+
+.site-main .about-area{
+  padding: 40px 10px;
+}
+.site-main .about-image img{
+  margin: 20px;
+  margin-left: 100px;
+  margin-top: 40px;
+  width: 300px;
+  height: auto;
+}
+.site-main .about-area .about-title h2{
+  display: block;
+  font: normal bold 40px/60px var(--roboto);
+  letter-spacing: 2px;
+}
+.site-main .about-area .about-title .paragraph > p{
+  padding: 0rem 0;
+  width: 100%;
+}
+
+/* End About Area */
+
+
+/* Start Project Area */
+
+.site-main .project-area{
+  padding: 4rem 0;
+}
+.site-main .project-area .button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase; 
+}
+.site-main .project-area .button-group button + button{
+  padding-left: 3rem;
+}
+.site-main .project-area .grid .out-project > .title h4{
+  font: normal 700 25px/12px var(--roboto);
+}
+.site-main .project-area .grid .out-project .img a:hover img{
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End Project Area */
+
+
+/* Footer Area */
+
+footer.footer-area{
+  padding: 5rem 0;
+  background: rgb(24, 22, 27);
+}
+footer.footer-area .site-logo a{
+  text-decoration: none;
+  color: white;
+}
+footer.footer-area .social h5{
+  font: normal 500 23px/30px var(--roboto);
+  color: whitesmoke;
+  letter-spacing: 6px;
+}
+footer.footer-area .social a > i{
+  font-size: 30px;
+  padding: 2rem;
+  color: whitesmoke;
+}
+footer.footer-area .social a:hover > i{
+  color: rgb(175, 175, 175);
+}
+
+/* End Footer Area */
